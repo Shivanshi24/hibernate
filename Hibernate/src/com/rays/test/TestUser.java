@@ -18,7 +18,7 @@ public class TestUser {
 		// testDelete();
 		// testFindByPk();
 		// testAuth();
-		testSearch();
+		//testSearch();
 
 	}
 
