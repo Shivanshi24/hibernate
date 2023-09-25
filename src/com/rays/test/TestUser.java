@@ -13,7 +13,7 @@ public class TestUser {
 
 	public static void main(String[] args) throws Exception {
 
-		// testAdd();
+		 testAdd();
 		// testUpdate();
 		// testDelete();
 		// testFindByPk();
@@ -122,12 +122,12 @@ public class TestUser {
 
 		UserDTO dto = new UserDTO();
 
-		dto.setId(8);
-		dto.setFirstName("raj");
-		dto.setLastName("jaat");
-		dto.setLoginId("raj23@gmail.com");
+		dto.setId(6);
+		dto.setFirstName("namo");
+		dto.setLastName("singh");
+		dto.setLoginId("ravi23@gmail.com");
 		dto.setPassword("pass@111");
-		dto.setDob(sdf.parse("16-04-2004"));
+		dto.setDob(sdf.parse("18-04-2004"));
 		dto.setAddress("indore");
 
 		UserModel model = new UserModel();

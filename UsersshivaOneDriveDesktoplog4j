@@ -1,0 +1,561 @@
+2023-09-25 12:49:38 DEBUG TestLog4j:11 - This is Debug...!!
+2023-09-25 12:49:38 INFO  TestLog4j:12 - This is Info...!!
+2023-09-25 12:49:38 WARN  TestLog4j:13 - This is Warn...!!
+2023-09-25 12:49:38 ERROR TestLog4j:14 - This is Error...!!
+2023-09-25 12:49:38 FATAL TestLog4j:15 - This is Fatal...!!
+2023-09-25 12:49:38 INFO  TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at log4j.TestLog4j.main(TestLog4j.java:21)
+2023-09-25 12:54:09 DEBUG TestLog4j:11 - This is Debug...!!
+2023-09-25 12:54:09 INFO  TestLog4j:12 - This is Info...!!
+2023-09-25 12:54:09 WARN  TestLog4j:13 - This is Warn...!!
+2023-09-25 12:54:09 ERROR TestLog4j:14 - This is Error...!!
+2023-09-25 12:54:09 FATAL TestLog4j:15 - This is Fatal...!!
+2023-09-25 12:54:09 INFO  TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at log4j.TestLog4j.main(TestLog4j.java:21)
+2023-09-25 12:55:08 DEBUG TestLog4j:11 - This is Debug...!!
+2023-09-25 12:55:08 INFO  TestLog4j:12 - This is Info...!!
+2023-09-25 12:55:08 WARN  TestLog4j:13 - This is Warn...!!
+2023-09-25 12:55:08 ERROR TestLog4j:14 - This is Error...!!
+2023-09-25 12:55:08 FATAL TestLog4j:15 - This is Fatal...!!
+2023-09-25 12:55:08 INFO  TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at log4j.TestLog4j.main(TestLog4j.java:21)
+2023-09-25 12:56:18 DEBUG TestLog4j:11 - This is Debug...!!
+2023-09-25 12:56:18 INFO  TestLog4j:12 - This is Info...!!
+2023-09-25 12:56:18 WARN  TestLog4j:13 - This is Warn...!!
+2023-09-25 12:56:18 ERROR TestLog4j:14 - This is Error...!!
+2023-09-25 12:56:18 FATAL TestLog4j:15 - This is Fatal...!!
+2023-09-25 12:56:18 INFO  TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at log4j.TestLog4j.main(TestLog4j.java:21)
+2023-09-25 12:57:52 DEBUG TestLog4j:11 - This is Debug...!!
+2023-09-25 12:57:52 INFO  TestLog4j:12 - This is Info...!!
+2023-09-25 12:57:52 WARN  TestLog4j:13 - This is Warn...!!
+2023-09-25 12:57:52 ERROR TestLog4j:14 - This is Error...!!
+2023-09-25 12:57:52 FATAL TestLog4j:15 - This is Fatal...!!
+2023-09-25 12:57:52 INFO  TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at log4j.TestLog4j.main(TestLog4j.java:21)
+2023-09-25 13:51:42 INFO  Environment:514 - Hibernate 3.2.6
+2023-09-25 13:51:42 INFO  Environment:547 - hibernate.properties not found
+2023-09-25 13:51:42 INFO  Environment:681 - Bytecode provider name : cglib
+2023-09-25 13:51:42 INFO  Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2023-09-25 13:51:42 INFO  Configuration:1432 - configuring from resource: /hibernate.cfg.xml
+2023-09-25 13:51:42 INFO  Configuration:1409 - Configuration resource: /hibernate.cfg.xml
+2023-09-25 13:51:42 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.connection.password=root
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.connection.username=root
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hbm2ddl.auto=update
+2023-09-25 13:51:46 DEBUG Configuration:1393 - show_sql=true
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.cache.provider_class=org.hibernate.cache.EhCacheProvider
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.cache.use_second_level_cache=true
+2023-09-25 13:51:46 DEBUG Configuration:1393 - hibernate.cache.use_query_cache=true
+2023-09-25 13:51:46 DEBUG Configuration:1592 - null<-org.dom4j.tree.DefaultAttribute@2e005c4b [Attribute: name resource value "com/rays/dto/UserDTO.hbm.xml"]
+2023-09-25 13:51:46 INFO  Configuration:559 - Reading mappings from resource : com/rays/dto/UserDTO.hbm.xml
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2023-09-25 13:51:46 INFO  HbmBinder:300 - Mapping class: com.rays.dto.UserDTO -> USER
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: id -> ID
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: firstName -> FIRSTNAME
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: lastName -> LASTNAME
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: loginId -> LOGINID
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: password -> PASSWORD
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: dob -> DOB
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: address -> ADDRESS
+2023-09-25 13:51:46 DEBUG HbmBinder:2568 - Named query: allUser -> 
+		 from UserDTO 
+	
+2023-09-25 13:51:46 DEBUG Configuration:1592 - null<-org.dom4j.tree.DefaultAttribute@6a6cb05c [Attribute: name resource value "com/rays/dto/MarksheetDTO.hbm.xml"]
+2023-09-25 13:51:46 INFO  Configuration:559 - Reading mappings from resource : com/rays/dto/MarksheetDTO.hbm.xml
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:38 - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:40 - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2023-09-25 13:51:46 DEBUG DTDEntityResolver:50 - located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2023-09-25 13:51:46 INFO  HbmBinder:300 - Mapping class: com.rays.dto.MarksheetDTO -> MARKSHEET
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: id -> ID
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: name -> NAME
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: rollNo -> ROLLNO
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: physics -> PHYSICS
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: chemistry -> CHEMISTRY
+2023-09-25 13:51:46 DEBUG HbmBinder:1267 - Mapped property: maths -> MATHS
+2023-09-25 13:51:46 INFO  Configuration:1547 - Configured SessionFactory: null
+2023-09-25 13:51:46 DEBUG Configuration:1548 - properties: {awt.toolkit=sun.awt.windows.WToolkit, java.specification.version=11, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, sun.arch.data.model=64, hbm2ddl.auto=update, java.vendor.url=https://openjdk.java.net/, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.15.1\bin, sun.java.command=com.rays.test.TestHQLJoin, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2022-04-22, java.home=C:\Program Files\Java\jdk-11.0.15.1, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.15.1+2-LTS-10, user.name=shiva, file.encoding=Cp1252, java.vendor.version=18.9, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.io.tmpdir=C:\Users\shiva\AppData\Local\Temp\, java.version=11.0.15.1, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.cache.use_second_level_cache=true, java.library.path=C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.15.1/bin/server;C:/Program Files/Java/jdk-11.0.15.1/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Meld\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Meld\;;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\shiva\AppData\Local\Microsoft\WindowsApps;;C:\Users\shiva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Raksha Software\eclipse;;., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Raksha Software\workspace\Hibernate Workspace\Hibernate\bin;C:\Users\shiva\Downloads\mysql-connector-java-8.0.29 (1).jar;C:\Users\shiva\Downloads\mchange-commons-java-0.2.3.4.jar;C:\Users\shiva\Downloads\commons-collections-2.1.1.jar;C:\Users\shiva\Downloads\jaas.jar;C:\Users\shiva\Downloads\junit-4.12.jar;C:\Users\shiva\Downloads\hibernate3.jar;C:\Users\shiva\Downloads\jta.jar;C:\Users\shiva\Downloads\hamcrest-all-1.3.jar;C:\Users\shiva\Downloads\ehcache-1.2.3.jar;C:\Users\shiva\Downloads\commons-logging-1.0.4.jar;C:\Users\shiva\Downloads\dom4j-1.6.1.jar;C:\Users\shiva\Downloads\cglib-2.1.3.jar;C:\Users\shiva\Downloads\asm-attrs.jar;C:\Users\shiva\Downloads\antlr-2.7.7.jar;C:\Users\shiva\Downloads\asm.jar;C:\Users\shiva\Downloads\log4j-1.2.11.jar, java.vm.vendor=Oracle Corporation, user.variant=, user.timezone=Asia/Calcutta, os.name=Windows 11, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.cpu.endian=little, user.home=C:\Users\shiva, user.language=en, hibernate.cache.provider_class=org.hibernate.cache.EhCacheProvider, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.cache.use_query_cache=true, path.separator=;, hibernate.connection.username=root, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=C:\Raksha Software\workspace\Hibernate Workspace\Hibernate, os.arch=amd64, hibernate.connection.password=root, java.vm.info=mixed mode, java.vm.version=11.0.15.1+2-LTS-10, hibernate.bytecode.use_reflection_optimizer=false, java.class.version=55.0}
+2023-09-25 13:51:46 DEBUG Configuration:1291 - Preparing to build session factory with filters : {}
+2023-09-25 13:51:46 DEBUG Configuration:1126 - processing extends queue
+2023-09-25 13:51:46 DEBUG Configuration:1130 - processing collection mappings
+2023-09-25 13:51:46 DEBUG Configuration:1141 - processing native query and ResultSetMapping mappings
+2023-09-25 13:51:46 DEBUG Configuration:1149 - processing association property references
+2023-09-25 13:51:46 DEBUG Configuration:1171 - processing foreign key constraints
+2023-09-25 13:51:46 INFO  DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+2023-09-25 13:51:46 INFO  DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+2023-09-25 13:51:46 INFO  DriverManagerConnectionProvider:45 - autocommit mode: false
+2023-09-25 13:51:46 INFO  DriverManagerConnectionProvider:80 - using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/hibernate
+2023-09-25 13:51:46 INFO  DriverManagerConnectionProvider:83 - connection properties: {password=root, user=root}
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:93 - total checked-out connections: 0
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:109 - opening new JDBC connection
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:115 - created connection to: jdbc:mysql://localhost:3306/hibernate, Isolation Level: 4
+2023-09-25 13:51:46 INFO  SettingsFactory:89 - RDBMS: MySQL, version: 8.0.30
+2023-09-25 13:51:46 INFO  SettingsFactory:90 - JDBC driver: MySQL Connector/J, version: mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:129 - returning connection to pool, pool size: 1
+2023-09-25 13:51:46 INFO  Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-25 13:51:46 INFO  TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+2023-09-25 13:51:46 INFO  TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2023-09-25 13:51:46 INFO  SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:154 - JDBC batch size: 15
+2023-09-25 13:51:46 INFO  SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:162 - Scrollable result sets: enabled
+2023-09-25 13:51:46 DEBUG SettingsFactory:166 - Wrap result sets: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+2023-09-25 13:51:46 INFO  SettingsFactory:178 - Connection release mode: auto
+2023-09-25 13:51:46 INFO  SettingsFactory:202 - Maximum outer join fetch depth: 2
+2023-09-25 13:51:46 INFO  SettingsFactory:205 - Default batch fetch size: 1
+2023-09-25 13:51:46 INFO  SettingsFactory:209 - Generate SQL with comments: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:213 - Order SQL updates by primary key: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:217 - Order SQL inserts for batching: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2023-09-25 13:51:46 INFO  ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2023-09-25 13:51:46 INFO  SettingsFactory:225 - Query language substitutions: {}
+2023-09-25 13:51:46 INFO  SettingsFactory:230 - JPA-QL strict compliance: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:235 - Second-level cache: enabled
+2023-09-25 13:51:46 INFO  SettingsFactory:239 - Query cache: enabled
+2023-09-25 13:51:46 INFO  SettingsFactory:373 - Cache provider: org.hibernate.cache.EhCacheProvider
+2023-09-25 13:51:46 INFO  SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:263 - Structured second-level cache entries: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:360 - Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+2023-09-25 13:51:46 DEBUG SQLExceptionConverterFactory:52 - Using dialect defined converter
+2023-09-25 13:51:46 INFO  SettingsFactory:283 - Echoing all SQL to stdout
+2023-09-25 13:51:46 INFO  SettingsFactory:290 - Statistics: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2023-09-25 13:51:46 INFO  SettingsFactory:309 - Default entity-mode: pojo
+2023-09-25 13:51:46 INFO  SettingsFactory:313 - Named query checking : enabled
+2023-09-25 13:51:46 INFO  SessionFactoryImpl:161 - building session factory
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:173 - Session factory constructed with filter configurations : {}
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:177 - instantiating session factory with properties: {awt.toolkit=sun.awt.windows.WToolkit, java.specification.version=11, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, sun.arch.data.model=64, hbm2ddl.auto=update, java.vendor.url=https://openjdk.java.net/, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.15.1\bin, sun.java.command=com.rays.test.TestHQLJoin, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2022-04-22, java.home=C:\Program Files\Java\jdk-11.0.15.1, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.15.1+2-LTS-10, user.name=shiva, file.encoding=Cp1252, java.vendor.version=18.9, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.io.tmpdir=C:\Users\shiva\AppData\Local\Temp\, java.version=11.0.15.1, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.cache.use_second_level_cache=true, java.library.path=C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.15.1/bin/server;C:/Program Files/Java/jdk-11.0.15.1/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Meld\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Meld\;;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\shiva\AppData\Local\Microsoft\WindowsApps;;C:\Users\shiva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Raksha Software\eclipse;;., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Raksha Software\workspace\Hibernate Workspace\Hibernate\bin;C:\Users\shiva\Downloads\mysql-connector-java-8.0.29 (1).jar;C:\Users\shiva\Downloads\mchange-commons-java-0.2.3.4.jar;C:\Users\shiva\Downloads\commons-collections-2.1.1.jar;C:\Users\shiva\Downloads\jaas.jar;C:\Users\shiva\Downloads\junit-4.12.jar;C:\Users\shiva\Downloads\hibernate3.jar;C:\Users\shiva\Downloads\jta.jar;C:\Users\shiva\Downloads\hamcrest-all-1.3.jar;C:\Users\shiva\Downloads\ehcache-1.2.3.jar;C:\Users\shiva\Downloads\commons-logging-1.0.4.jar;C:\Users\shiva\Downloads\dom4j-1.6.1.jar;C:\Users\shiva\Downloads\cglib-2.1.3.jar;C:\Users\shiva\Downloads\asm-attrs.jar;C:\Users\shiva\Downloads\antlr-2.7.7.jar;C:\Users\shiva\Downloads\asm.jar;C:\Users\shiva\Downloads\log4j-1.2.11.jar, java.vm.vendor=Oracle Corporation, user.variant=, user.timezone=Asia/Calcutta, os.name=Windows 11, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.cpu.endian=little, user.home=C:\Users\shiva, user.language=en, hibernate.cache.provider_class=org.hibernate.cache.EhCacheProvider, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.cache.use_query_cache=true, path.separator=;, hibernate.connection.username=root, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=C:\Raksha Software\workspace\Hibernate Workspace\Hibernate, os.arch=amd64, hibernate.connection.password=root, java.vm.info=mixed mode, java.vm.version=11.0.15.1+2-LTS-10, hibernate.bytecode.use_reflection_optimizer=false, java.class.version=55.0}
+2023-09-25 13:51:46 DEBUG CacheManager:239 - Configuring ehcache from classpath.
+2023-09-25 13:51:46 WARN  ConfigurationFactory:127 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/shiva/Downloads/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+2023-09-25 13:51:46 DEBUG ConfigurationFactory:87 - Configuring ehcache from URL: jar:file:/C:/Users/shiva/Downloads/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+2023-09-25 13:51:46 DEBUG ConfigurationFactory:139 - Configuring ehcache from InputStream
+2023-09-25 13:51:46 DEBUG DiskStoreConfiguration:65 - Disk Store Path: C:\Users\shiva\AppData\Local\Temp\
+2023-09-25 13:51:46 DEBUG ConfigurationHelper:208 - No CacheManagerEventListenerFactory class specified. Skipping...
+2023-09-25 13:51:46 DEBUG ConfigurationHelper:183 - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+2023-09-25 13:51:46 DEBUG ConfigurationHelper:159 - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+2023-09-25 13:51:46 DEBUG ConfigurationHelper:135 - No BootstrapCacheLoaderFactory class specified. Skipping...
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2743 - Static SQL for entity: com.rays.dto.UserDTO
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2748 -  Version select: select ID from USER where ID =?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2751 -  Snapshot select: select userdto_.ID, userdto_.FIRSTNAME as FIRSTNAME0_, userdto_.LASTNAME as LASTNAME0_, userdto_.LOGINID as LOGINID0_, userdto_.PASSWORD as PASSWORD0_, userdto_.DOB as DOB0_, userdto_.ADDRESS as ADDRESS0_ from USER userdto_ where userdto_.ID=?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2754 -  Insert 0: insert into USER (FIRSTNAME, LASTNAME, LOGINID, PASSWORD, DOB, ADDRESS, ID) values (?, ?, ?, ?, ?, ?, ?)
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2755 -  Update 0: update USER set FIRSTNAME=?, LASTNAME=?, LOGINID=?, PASSWORD=?, DOB=?, ADDRESS=? where ID=?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2756 -  Delete 0: delete from USER where ID=?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2743 - Static SQL for entity: com.rays.dto.MarksheetDTO
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2748 -  Version select: select ID from MARKSHEET where ID =?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2751 -  Snapshot select: select marksheetd_.ID, marksheetd_.NAME as NAME1_, marksheetd_.ROLLNO as ROLLNO1_, marksheetd_.PHYSICS as PHYSICS1_, marksheetd_.CHEMISTRY as CHEMISTRY1_, marksheetd_.MATHS as MATHS1_ from MARKSHEET marksheetd_ where marksheetd_.ID=?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2754 -  Insert 0: insert into MARKSHEET (NAME, ROLLNO, PHYSICS, CHEMISTRY, MATHS, ID) values (?, ?, ?, ?, ?, ?)
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2755 -  Update 0: update MARKSHEET set NAME=?, ROLLNO=?, PHYSICS=?, CHEMISTRY=?, MATHS=? where ID=?
+2023-09-25 13:51:46 DEBUG AbstractEntityPersister:2756 -  Delete 0: delete from MARKSHEET where ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=? for update
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=? for update
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=? for update
+2023-09-25 13:51:46 DEBUG CascadeEntityLoader:34 - Static select for action ACTION_MERGE on entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=?
+2023-09-25 13:51:46 DEBUG CascadeEntityLoader:34 - Static select for action ACTION_REFRESH on entity com.rays.dto.UserDTO: select userdto0_.ID as ID0_0_, userdto0_.FIRSTNAME as FIRSTNAME0_0_, userdto0_.LASTNAME as LASTNAME0_0_, userdto0_.LOGINID as LOGINID0_0_, userdto0_.PASSWORD as PASSWORD0_0_, userdto0_.DOB as DOB0_0_, userdto0_.ADDRESS as ADDRESS0_0_ from USER userdto0_ where userdto0_.ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=?
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=? for update
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=? for update
+2023-09-25 13:51:46 DEBUG EntityLoader:79 - Static select for entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=? for update
+2023-09-25 13:51:46 DEBUG CascadeEntityLoader:34 - Static select for action ACTION_MERGE on entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=?
+2023-09-25 13:51:46 DEBUG CascadeEntityLoader:34 - Static select for action ACTION_REFRESH on entity com.rays.dto.MarksheetDTO: select marksheetd0_.ID as ID1_0_, marksheetd0_.NAME as NAME1_0_, marksheetd0_.ROLLNO as ROLLNO1_0_, marksheetd0_.PHYSICS as PHYSICS1_0_, marksheetd0_.CHEMISTRY as CHEMISTRY1_0_, marksheetd0_.MATHS as MATHS1_0_ from MARKSHEET marksheetd0_ where marksheetd0_.ID=?
+2023-09-25 13:51:46 DEBUG SessionFactoryObjectFactory:39 - initializing class SessionFactoryObjectFactory
+2023-09-25 13:51:46 DEBUG SessionFactoryObjectFactory:76 - registered: 402880078acb6e1f018acb6e20180000 (unnamed)
+2023-09-25 13:51:46 INFO  SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:308 - instantiated session factory
+2023-09-25 13:51:46 INFO  SchemaUpdate:115 - Running hbm2ddl schema update
+2023-09-25 13:51:46 INFO  SchemaUpdate:126 - fetching database metadata
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:93 - total checked-out connections: 0
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:99 - using pooled JDBC connection, pool size: 0
+2023-09-25 13:51:46 INFO  SchemaUpdate:138 - updating schema
+2023-09-25 13:51:46 DEBUG Configuration:1126 - processing extends queue
+2023-09-25 13:51:46 DEBUG Configuration:1130 - processing collection mappings
+2023-09-25 13:51:46 DEBUG Configuration:1141 - processing native query and ResultSetMapping mappings
+2023-09-25 13:51:46 DEBUG Configuration:1149 - processing association property references
+2023-09-25 13:51:46 DEBUG Configuration:1171 - processing foreign key constraints
+2023-09-25 13:51:46 INFO  TableMetadata:39 - table found: adv.marksheet
+2023-09-25 13:51:46 INFO  TableMetadata:40 - columns: [chemistry, maths, roll_no, physics, name, id]
+2023-09-25 13:51:46 INFO  TableMetadata:42 - foreign keys: []
+2023-09-25 13:51:46 INFO  TableMetadata:43 - indexes: [primary]
+2023-09-25 13:51:46 INFO  TableMetadata:39 - table found: adv.user
+2023-09-25 13:51:46 INFO  TableMetadata:40 - columns: [login_id, password, address, dob, last_name, id, first_name]
+2023-09-25 13:51:46 INFO  TableMetadata:42 - foreign keys: []
+2023-09-25 13:51:46 INFO  TableMetadata:43 - indexes: [primary]
+2023-09-25 13:51:46 DEBUG SchemaUpdate:149 - alter table MARKSHEET add column ROLLNO integer
+2023-09-25 13:51:46 ERROR SchemaUpdate:155 - Unsuccessful: alter table MARKSHEET add column ROLLNO integer
+2023-09-25 13:51:46 ERROR SchemaUpdate:156 - Duplicate column name 'ROLLNO'
+2023-09-25 13:51:46 DEBUG SchemaUpdate:149 - alter table USER add column FIRSTNAME varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:155 - Unsuccessful: alter table USER add column FIRSTNAME varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:156 - Duplicate column name 'FIRSTNAME'
+2023-09-25 13:51:46 DEBUG SchemaUpdate:149 - alter table USER add column LASTNAME varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:155 - Unsuccessful: alter table USER add column LASTNAME varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:156 - Duplicate column name 'LASTNAME'
+2023-09-25 13:51:46 DEBUG SchemaUpdate:149 - alter table USER add column LOGINID varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:155 - Unsuccessful: alter table USER add column LOGINID varchar(255)
+2023-09-25 13:51:46 ERROR SchemaUpdate:156 - Duplicate column name 'LOGINID'
+2023-09-25 13:51:46 INFO  SchemaUpdate:160 - schema update complete
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:129 - returning connection to pool, pool size: 1
+2023-09-25 13:51:46 INFO  UpdateTimestampsCache:41 - starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+2023-09-25 13:51:46 WARN  EhCacheProvider:86 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2023-09-25 13:51:46 DEBUG DiskStore:182 - Deleting data file org.hibernate.cache.UpdateTimestampsCache.data
+2023-09-25 13:51:46 DEBUG MemoryStore:73 - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.UpdateTimestampsCache
+2023-09-25 13:51:46 DEBUG LruMemoryStore:71 - org.hibernate.cache.UpdateTimestampsCache Cache: Using SpoolingLinkedHashMap implementation
+2023-09-25 13:51:46 DEBUG Cache:429 - Initialised cache: org.hibernate.cache.UpdateTimestampsCache
+2023-09-25 13:51:46 DEBUG EhCacheProvider:89 - started EHCache region: org.hibernate.cache.UpdateTimestampsCache
+2023-09-25 13:51:46 INFO  StandardQueryCache:52 - starting query cache at region: org.hibernate.cache.StandardQueryCache
+2023-09-25 13:51:46 WARN  EhCacheProvider:86 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2023-09-25 13:51:46 DEBUG DiskStore:182 - Deleting data file org.hibernate.cache.StandardQueryCache.data
+2023-09-25 13:51:46 DEBUG MemoryStore:73 - Initialized net.sf.ehcache.store.LruMemoryStore for org.hibernate.cache.StandardQueryCache
+2023-09-25 13:51:46 DEBUG LruMemoryStore:71 - org.hibernate.cache.StandardQueryCache Cache: Using SpoolingLinkedHashMap implementation
+2023-09-25 13:51:46 DEBUG Cache:429 - Initialised cache: org.hibernate.cache.StandardQueryCache
+2023-09-25 13:51:46 DEBUG EhCacheProvider:89 - started EHCache region: org.hibernate.cache.StandardQueryCache
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:392 - Checking 1 named HQL queries
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:400 - Checking named query: allUser
+2023-09-25 13:51:46 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (
+		 from UserDTO 
+	)
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:246 - parse() - HQL: 
+		 from com.rays.dto.UserDTO 
+	
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    \-[SELECT_FROM] 'SELECT_FROM'
+       \-[FROM] 'from'
+          \-[RANGE] 'RANGE'
+             \-[DOT] '.'
+                +-[DOT] '.'
+                |  +-[DOT] '.'
+                |  |  +-[IDENT] 'com'
+                |  |  \-[IDENT] 'rays'
+                |  \-[IDENT] 'dto'
+                \-[IDENT] 'UserDTO'
+
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG FromElement:108 - FromClause{level=1} :  com.rays.dto.UserDTO (no alias) -> userdto0_
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( FromClause{level=1} USER userdto0_ ) )
+2023-09-25 13:51:46 DEBUG HqlSqlWalker:716 - Derived SELECT clause created.
+2023-09-25 13:51:46 DEBUG JoinProcessor:148 - Using FROM fragment [USER userdto0_]
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (USER)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'userdto0_.ID as ID0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=USER,tableAlias=userdto0_,origin=null,colums={,className=com.rays.dto.UserDTO}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'userdto0_.FIRSTNAME as FIRSTNAME0_, userdto0_.LASTNAME as LASTNAME0_, userdto0_.LOGINID as LOGINID0_, userdto0_.PASSWORD as PASSWORD0_, userdto0_.DOB as DOB0_, userdto0_.ADDRESS as ADDRESS0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[userdto0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'USER userdto0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=USER,tableAlias=userdto0_,origin=null,colums={,className=com.rays.dto.UserDTO}}
+
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:216 - HQL: 
+		 from com.rays.dto.UserDTO 
+	
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:217 - SQL: select userdto0_.ID as ID0_, userdto0_.FIRSTNAME as FIRSTNAME0_, userdto0_.LASTNAME as LASTNAME0_, userdto0_.LOGINID as LOGINID0_, userdto0_.PASSWORD as PASSWORD0_, userdto0_.DOB as DOB0_, userdto0_.ADDRESS as ADDRESS0_ from USER userdto0_
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG HQLQueryPlan:269 - HQL param location recognition took 0 mills (
+		 from UserDTO 
+	)
+2023-09-25 13:51:46 DEBUG SessionFactoryImpl:412 - Checking 0 named SQL queries
+2023-09-25 13:51:46 DEBUG SessionImpl:220 - opened session at timestamp: 6945300917350400
+2023-09-25 13:51:46 DEBUG JDBCTransaction:54 - begin
+2023-09-25 13:51:46 DEBUG ConnectionManager:421 - opening JDBC connection
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:93 - total checked-out connections: 0
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:99 - using pooled JDBC connection, pool size: 0
+2023-09-25 13:51:46 DEBUG JDBCTransaction:59 - current autocommit status: false
+2023-09-25 13:51:46 DEBUG JDBCContext:214 - after transaction begin
+2023-09-25 13:51:46 DEBUG QueryPlanCache:70 - unable to locate HQL query plan in cache; generating (select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from UserDTO u, MarksheetDTO m where u.id = m.id)
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:246 - parse() - HQL: select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from com.rays.dto.UserDTO u, com.rays.dto.MarksheetDTO m where u.id = m.id
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:266 - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  +-[FROM] 'from'
+    |  |  +-[RANGE] 'RANGE'
+    |  |  |  +-[DOT] '.'
+    |  |  |  |  +-[DOT] '.'
+    |  |  |  |  |  +-[DOT] '.'
+    |  |  |  |  |  |  +-[IDENT] 'com'
+    |  |  |  |  |  |  \-[IDENT] 'rays'
+    |  |  |  |  |  \-[IDENT] 'dto'
+    |  |  |  |  \-[IDENT] 'UserDTO'
+    |  |  |  \-[ALIAS] 'u'
+    |  |  \-[RANGE] 'RANGE'
+    |  |     +-[DOT] '.'
+    |  |     |  +-[DOT] '.'
+    |  |     |  |  +-[DOT] '.'
+    |  |     |  |  |  +-[IDENT] 'com'
+    |  |     |  |  |  \-[IDENT] 'rays'
+    |  |     |  |  \-[IDENT] 'dto'
+    |  |     |  \-[IDENT] 'MarksheetDTO'
+    |  |     \-[ALIAS] 'm'
+    |  \-[SELECT] 'select'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'id'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'firstName'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'lastName'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'loginId'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'password'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'dob'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'u'
+    |     |  \-[IDENT] 'address'
+    |     +-[DOT] '.'
+    |     |  +-[IDENT] 'm'
+    |     |  \-[IDENT] 'id'
+    |     \-[DOT] '.'
+    |        +-[IDENT] 'm'
+    |        \-[IDENT] 'rollNo'
+    \-[WHERE] 'where'
+       \-[EQ] '='
+          +-[DOT] '.'
+          |  +-[IDENT] 'u'
+          |  \-[IDENT] 'id'
+          \-[DOT] '.'
+             +-[IDENT] 'm'
+             \-[IDENT] 'id'
+
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:111 - select << begin [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG FromElement:108 - FromClause{level=1} :  com.rays.dto.UserDTO (u) -> userdto0_
+2023-09-25 13:51:46 DEBUG FromElement:108 - FromClause{level=1} :  com.rays.dto.MarksheetDTO (m) -> marksheetd1_
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> id (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : id -> org.hibernate.type.IntegerType@14a54ef6
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.id -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> id (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> firstName (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : firstName -> org.hibernate.type.StringType@7da10b5b
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.firstName -> userdto0_.FIRSTNAME
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> firstName (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> lastName (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : lastName -> org.hibernate.type.StringType@7da10b5b
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.lastName -> userdto0_.LASTNAME
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> lastName (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> loginId (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : loginId -> org.hibernate.type.StringType@7da10b5b
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.loginId -> userdto0_.LOGINID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> loginId (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> password (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : password -> org.hibernate.type.StringType@7da10b5b
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.password -> userdto0_.PASSWORD
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> password (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> dob (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : dob -> org.hibernate.type.TimestampType@3003697
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.dob -> userdto0_.DOB
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> dob (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> address (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : address -> org.hibernate.type.StringType@7da10b5b
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.address -> userdto0_.ADDRESS
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> address (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m -> marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.MarksheetDTO (m) -> id (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : id -> org.hibernate.type.IntegerType@14a54ef6
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m.id -> marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.MarksheetDTO (m) -> id (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m -> marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.MarksheetDTO (m) -> rollNo (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : rollNo -> org.hibernate.type.IntegerType@14a54ef6
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m.rollNo -> marksheetd1_.ROLLNO
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.MarksheetDTO (m) -> rollNo (class)]
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.UserDTO (u) -> id (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : id -> org.hibernate.type.IntegerType@14a54ef6
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  u.id -> userdto0_.ID
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m -> marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG FromElement:525 - handling property dereference [com.rays.dto.MarksheetDTO (m) -> id (class)]
+2023-09-25 13:51:46 DEBUG DotNode:569 - getDataType() : id -> org.hibernate.type.IntegerType@14a54ef6
+2023-09-25 13:51:46 DEBUG FromReferenceNode:51 - Resolved :  m.id -> marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:117 - select : finishing up [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG HqlSqlWalker:509 - processQuery() :  ( SELECT ( {select clause} ( userdto0_.ID userdto0_.ID id ) ( userdto0_.FIRSTNAME userdto0_.ID firstName ) ( userdto0_.LASTNAME userdto0_.ID lastName ) ( userdto0_.LOGINID userdto0_.ID loginId ) ( userdto0_.PASSWORD userdto0_.ID password ) ( userdto0_.DOB userdto0_.ID dob ) ( userdto0_.ADDRESS userdto0_.ID address ) ( marksheetd1_.ID marksheetd1_.ID id ) ( marksheetd1_.ROLLNO marksheetd1_.ID rollNo ) ) ( FromClause{level=1} USER userdto0_ MARKSHEET marksheetd1_ ) ( where ( = ( userdto0_.ID userdto0_.ID id ) ( marksheetd1_.ID marksheetd1_.ID id ) ) ) )
+2023-09-25 13:51:46 DEBUG JoinProcessor:148 - Using FROM fragment [USER userdto0_]
+2023-09-25 13:51:46 DEBUG JoinProcessor:148 - Using FROM fragment [MARKSHEET marksheetd1_]
+2023-09-25 13:51:46 DEBUG HqlSqlBaseWalker:123 - select >> end [level=1, statement=select]
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:232 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (USER,MARKSHEET)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[DOT] DotNode: 'userdto0_.ID' {propertyName=id,dereferenceType=4,propertyPath=id,path=u.id,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'id' {originalText=id}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_0_0_'
+    |  +-[DOT] DotNode: 'userdto0_.FIRSTNAME' {propertyName=firstName,dereferenceType=4,propertyPath=firstName,path=u.firstName,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'firstName' {originalText=firstName}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_1_0_'
+    |  +-[DOT] DotNode: 'userdto0_.LASTNAME' {propertyName=lastName,dereferenceType=4,propertyPath=lastName,path=u.lastName,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'lastName' {originalText=lastName}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_2_0_'
+    |  +-[DOT] DotNode: 'userdto0_.LOGINID' {propertyName=loginId,dereferenceType=4,propertyPath=loginId,path=u.loginId,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'loginId' {originalText=loginId}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_3_0_'
+    |  +-[DOT] DotNode: 'userdto0_.PASSWORD' {propertyName=password,dereferenceType=4,propertyPath=password,path=u.password,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'password' {originalText=password}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_4_0_'
+    |  +-[DOT] DotNode: 'userdto0_.DOB' {propertyName=dob,dereferenceType=4,propertyPath=dob,path=u.dob,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'dob' {originalText=dob}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_5_0_'
+    |  +-[DOT] DotNode: 'userdto0_.ADDRESS' {propertyName=address,dereferenceType=4,propertyPath=address,path=u.address,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+    |  |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+    |  |  \-[IDENT] IdentNode: 'address' {originalText=address}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_6_0_'
+    |  +-[DOT] DotNode: 'marksheetd1_.ID' {propertyName=id,dereferenceType=4,propertyPath=id,path=m.id,tableAlias=marksheetd1_,className=com.rays.dto.MarksheetDTO,classAlias=m}
+    |  |  +-[ALIAS_REF] IdentNode: 'marksheetd1_.ID' {alias=m, className=com.rays.dto.MarksheetDTO, tableAlias=marksheetd1_}
+    |  |  \-[IDENT] IdentNode: 'id' {originalText=id}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_7_0_'
+    |  +-[DOT] DotNode: 'marksheetd1_.ROLLNO' {propertyName=rollNo,dereferenceType=4,propertyPath=rollNo,path=m.rollNo,tableAlias=marksheetd1_,className=com.rays.dto.MarksheetDTO,classAlias=m}
+    |  |  +-[ALIAS_REF] IdentNode: 'marksheetd1_.ID' {alias=m, className=com.rays.dto.MarksheetDTO, tableAlias=marksheetd1_}
+    |  |  \-[IDENT] IdentNode: 'rollNo' {originalText=rollNo}
+    |  \-[SELECT_COLUMNS] SqlNode: ' as col_8_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=2, fromElements=2, fromElementByClassAlias=[u, m], fromElementByTableAlias=[userdto0_, marksheetd1_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  +-[FROM_FRAGMENT] FromElement: 'USER userdto0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=u,role=null,tableName=USER,tableAlias=userdto0_,origin=null,colums={,className=com.rays.dto.UserDTO}}
+    |  \-[FROM_FRAGMENT] FromElement: 'MARKSHEET marksheetd1_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=m,role=null,tableName=MARKSHEET,tableAlias=marksheetd1_,origin=null,colums={,className=com.rays.dto.MarksheetDTO}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'userdto0_.ID' {propertyName=id,dereferenceType=4,propertyPath=id,path=u.id,tableAlias=userdto0_,className=com.rays.dto.UserDTO,classAlias=u}
+          |  +-[ALIAS_REF] IdentNode: 'userdto0_.ID' {alias=u, className=com.rays.dto.UserDTO, tableAlias=userdto0_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[DOT] DotNode: 'marksheetd1_.ID' {propertyName=id,dereferenceType=4,propertyPath=id,path=m.id,tableAlias=marksheetd1_,className=com.rays.dto.MarksheetDTO,classAlias=m}
+             +-[ALIAS_REF] IdentNode: 'marksheetd1_.ID' {alias=m, className=com.rays.dto.MarksheetDTO, tableAlias=marksheetd1_}
+             \-[IDENT] IdentNode: 'id' {originalText=id}
+
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:216 - HQL: select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from com.rays.dto.UserDTO u, com.rays.dto.MarksheetDTO m where u.id = m.id
+2023-09-25 13:51:46 DEBUG QueryTranslatorImpl:217 - SQL: select userdto0_.ID as col_0_0_, userdto0_.FIRSTNAME as col_1_0_, userdto0_.LASTNAME as col_2_0_, userdto0_.LOGINID as col_3_0_, userdto0_.PASSWORD as col_4_0_, userdto0_.DOB as col_5_0_, userdto0_.ADDRESS as col_6_0_, marksheetd1_.ID as col_7_0_, marksheetd1_.ROLLNO as col_8_0_ from USER userdto0_, MARKSHEET marksheetd1_ where userdto0_.ID=marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG ErrorCounter:68 - throwQueryException() : no errors
+2023-09-25 13:51:46 DEBUG HQLQueryPlan:269 - HQL param location recognition took 0 mills (select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from UserDTO u, MarksheetDTO m where u.id = m.id)
+2023-09-25 13:51:46 DEBUG QueryPlanCache:76 - located HQL query plan in cache (select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from UserDTO u, MarksheetDTO m where u.id = m.id)
+2023-09-25 13:51:46 DEBUG HQLQueryPlan:150 - find: select u.id, u.firstName, u.lastName, u.loginId, u.password, u.dob, u.address, m.id, m.rollNo from UserDTO u, MarksheetDTO m where u.id = m.id
+2023-09-25 13:51:46 DEBUG QueryParameters:277 - named parameters: {}
+2023-09-25 13:51:46 DEBUG AbstractBatcher:366 - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+2023-09-25 13:51:46 DEBUG AbstractBatcher:401 - select userdto0_.ID as col_0_0_, userdto0_.FIRSTNAME as col_1_0_, userdto0_.LASTNAME as col_2_0_, userdto0_.LOGINID as col_3_0_, userdto0_.PASSWORD as col_4_0_, userdto0_.DOB as col_5_0_, userdto0_.ADDRESS as col_6_0_, marksheetd1_.ID as col_7_0_, marksheetd1_.ROLLNO as col_8_0_ from USER userdto0_, MARKSHEET marksheetd1_ where userdto0_.ID=marksheetd1_.ID
+2023-09-25 13:51:46 DEBUG AbstractBatcher:484 - preparing statement
+2023-09-25 13:51:46 DEBUG AbstractBatcher:382 - about to open ResultSet (open ResultSets: 0, globally: 0)
+2023-09-25 13:51:46 DEBUG Loader:694 - processing result set
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 0
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '1' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'raj' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'jaat' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'raj23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-16 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '1' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '101' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 1
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-16 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '102' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 2
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '3' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'addu' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-18 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '3' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '103' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 3
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '4' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'anuj' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-18 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '4' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '104' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 4
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '5' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'aman' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-18 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '5' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '105' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 5
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '6' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'namo' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi23@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'pass@111' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2004-04-18 00:00:00' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '6' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '106' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:699 - result set row: 6
+2023-09-25 13:51:46 DEBUG Loader:1173 - result row: 
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '7' as column: col_0_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'ravi' as column: col_1_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'singh' as column: col_2_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'abhay@gmail.com' as column: col_3_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '123' as column: col_4_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '2023-09-25 12:37:34' as column: col_5_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning 'indore' as column: col_6_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '7' as column: col_7_0_
+2023-09-25 13:51:46 DEBUG NullableType:172 - returning '107' as column: col_8_0_
+2023-09-25 13:51:46 DEBUG Loader:721 - done processing result set (7 rows)
+2023-09-25 13:51:46 DEBUG AbstractBatcher:389 - about to close ResultSet (open ResultSets: 1, globally: 1)
+2023-09-25 13:51:46 DEBUG AbstractBatcher:374 - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+2023-09-25 13:51:46 DEBUG AbstractBatcher:533 - closing statement
+2023-09-25 13:51:46 DEBUG StatefulPersistenceContext:837 - initializing non-lazy collections
+2023-09-25 13:51:46 DEBUG JDBCTransaction:103 - commit
+2023-09-25 13:51:46 DEBUG SessionImpl:337 - automatically flushing session
+2023-09-25 13:51:46 DEBUG JDBCContext:205 - before transaction completion
+2023-09-25 13:51:46 DEBUG SessionImpl:393 - before transaction completion
+2023-09-25 13:51:46 DEBUG JDBCTransaction:116 - committed JDBC Connection
+2023-09-25 13:51:46 DEBUG JDBCContext:219 - after transaction completion
+2023-09-25 13:51:46 DEBUG ConnectionManager:404 - aggressively releasing JDBC connection
+2023-09-25 13:51:46 DEBUG ConnectionManager:441 - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+2023-09-25 13:51:46 DEBUG DriverManagerConnectionProvider:129 - returning connection to pool, pool size: 1
+2023-09-25 13:51:46 DEBUG SessionImpl:422 - after transaction completion
+2023-09-25 13:51:46 DEBUG SessionImpl:273 - closing session
+2023-09-25 13:51:46 DEBUG ConnectionManager:375 - connection already null in cleanup : no action
